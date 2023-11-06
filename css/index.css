@@ -1,5 +1,5 @@
 header{
-    padding: 60px;
+    padding: 40px;
     text-align: center;
     background-color: #74C0CB;
     color: #263D40; 
@@ -13,5 +13,5 @@ footer{
     color: #263D40;
     font-size: large;
     font-weight: bold;
-    font-family: verdana;"
+    font-family: verdana;
 }
