@@ -21,12 +21,20 @@ footer{
 .title{
     color: #263D40; 
     font-family: verdana; 
-    font-size: large;
+    font-size: x-large;
     text-align: left;
+    padding: 1%;
 }
 
 .info{
     color: #263D40;
     font-family: verdana;
     text-align: center;
+    padding: 1%;
+    border-style: solid;
+    border-color: #263D40;
+    margin-top: auto;
+    margin-bottom: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
