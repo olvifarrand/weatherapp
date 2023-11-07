@@ -18,10 +18,24 @@ footer{
     font-family: verdana;
 }
 
+.pvm { 
+    float:left; 
+    height: 200px;
+    width: 150px; 
+    border: 2px solid #689ea7;
+    background-color: #74C0CB; 
+    margin-left: 0.5%;
+    height: 150px; 
+    padding: 3px;
+    margin-bottom: 2%;
+} 
+
+
 .title{
     color: #263D40; 
     font-family: verdana; 
     font-size: x-large;
+    font-weight: bold;
     text-align: left;
     padding: 1%;
 }
@@ -29,12 +43,8 @@ footer{
 .info{
     color: #263D40;
     font-family: verdana;
-    text-align: center;
+    font-size: small;
+    font-weight: normal;
+    text-align: start;
     padding: 1%;
-    border-style: solid;
-    border-color: #263D40;
-    margin-top: auto;
-    margin-bottom: 2%;
-    margin-left: 25%;
-    margin-right: 25%;
 }
