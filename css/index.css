@@ -17,3 +17,16 @@ footer{
     font-weight: bold;
     font-family: verdana;
 }
+
+.title{
+    color: #263D40; 
+    font-family: verdana; 
+    font-size: large;
+    text-align: left;
+}
+
+.info{
+    color: #263D40;
+    font-family: verdana;
+    text-align: center;
+}
