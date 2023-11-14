@@ -16,6 +16,10 @@ footer{
     font-size: large;
     font-weight: bold;
     font-family: verdana;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .pvm { 
@@ -33,10 +37,10 @@ footer{
 .title{
     color: #263D40; 
     font-family: verdana; 
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: bold;
-    text-align: left;
-    padding: 1%;
+    text-align: center;
+    padding: 2%;
 }
 
 .info{
@@ -46,4 +50,13 @@ footer{
     font-weight: normal;
     text-align: start;
     padding: 1%;
+}
+
+button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    width: auto;
+    min-width: 29%;
+    font-size: 250%;
 }
