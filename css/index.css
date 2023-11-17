@@ -16,14 +16,13 @@ footer{
     font-size: large;
     font-weight: bold;
     font-family: verdana;
-    position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
 }
 
 
 .title{
+    background-color: #a7b4b6;
     color: #263D40; 
     font-family: verdana; 
     font-size: xx-large;
@@ -32,12 +31,13 @@ footer{
     padding: 2%;
 }
 
-.weather-info{
+.sääinfo{
+    background-color: #cbd6d8;
     color: #263D40;
     font-family: verdana;
-    font-size: large;
+    font-size: small;
     font-weight: normal;
-    text-align: start;
+    text-align: center;
     padding: 1%;
 }
 
@@ -49,3 +49,4 @@ button{
     min-width: 29%;
     font-size: 250%;
 }
+

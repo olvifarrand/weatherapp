@@ -1,4 +1,4 @@
-async function cityURLhommat() {
+async function cityURLvantaa() {
     const APIkey = "94295a34c9a52d06656a4dbb0881be6f";
 
     const city = "Vantaa, FI";
