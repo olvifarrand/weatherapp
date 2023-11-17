@@ -1,62 +1,42 @@
 <!DOCTYPE html>
 <html lang="en-UK">
-<body style="background-color: #d9d9d9;">
+<!-- Head -->
 <head>
     <title>SkyMoods</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/index.css">
     <script src="/js/index.js"></script>
+    <script src="/js/vantaa.js"></script>
 </head>
-
+<!-- Body -->
+<body style="background-color: #d9d9d9;">
 <!-- Header -->
 <header>
     <p>SkyMoods</p>
 </header>
 
+<!-- Button -->
 <button type="button" onclick="location.href = '/index.html';">Home</button>
 
-
+<!-- City -->
 <div style="min-height: 400px;">
 <div class="title">
     <h>Vantaa</h1>
 </div>
 
-<!-- floatit jne -->
-    <div class="pvm">
-        <div class="info">Mon</div>
-    </div>
-    
-    <div class="pvm">
-        <div class="info">Tue</div>
-    </div>
+<!-- gimmetheweather pls pls -->
+<button type="button" onclick="cityURLhommat()">Weather</button>
 
-    <div class="pvm">
-        <div class="info">Wed</div>
-    </div>
-
-    <div class="pvm">
-        <div class="info">Thu</div>
-    </div>
-
-    <div class="pvm">
-        <div class="info">Fri</div>
-    </div>     
-
-    <div class="pvm">
-        <div class="info">Sat</div>
-    </div>     
-
-    <div class="pvm">
-        <div class="info">Sun</div>
-    </div>
-
+<div class="weather-info">
+    <h2 id="location"></h2>
+    <p id="temperature"></p>
+    <p id="description"></p>
 </div>
-
 
 <!-- Footer -->
 <footer>
-    <p>© 2023 SkyMoods, </p>
+    <p>© 2023 SkyMoods</p>
 </footer>
 
 </body>

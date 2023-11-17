@@ -22,17 +22,6 @@ footer{
     width: 100%;
 }
 
-.pvm { 
-    float: left;
-    width: 150px; 
-    border: 2px solid #689ea7;
-    background-color: #74C0CB; 
-    margin-left: 0.5%;
-    height: 200px; 
-    padding: 3px;
-    margin-bottom: 2%;
-} 
-
 
 .title{
     color: #263D40; 
@@ -43,10 +32,10 @@ footer{
     padding: 2%;
 }
 
-.info{
+.weather-info{
     color: #263D40;
     font-family: verdana;
-    font-size: small;
+    font-size: large;
     font-weight: normal;
     text-align: start;
     padding: 1%;
