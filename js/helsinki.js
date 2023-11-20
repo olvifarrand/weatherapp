@@ -9,12 +9,14 @@ function cityURLhelsinki() {
             const description = data.weather[0].description;
             const temperature = data.main.temp;
             const visibility = data.visibility;
-            const clouds = data.clouds.all;
+            const humidity = data.main.humidity;
+            const wind = data.wind.speed;
             const weatherhtml = `<div>
                 <h1>Description: ${description}</h1>
                 <h1>Temperature: ${Math.round(temperature)}°C, feels like ${Math.round(data.main.feels_like)}°C</h1>
                 <h1>Visibility: ${visibility}m</h1>
-                <h1>Clouds: ${clouds}kpl</h1>
+                <h1>Humidity: ${humidity}</h1>
+                <h1>Wind speed:${wind}m/s</h1>
             </div>`;
             weatherInfo.style.display = 'block';
             weatherInfo.innerHTML = weatherhtml;
@@ -25,4 +27,3 @@ function cityURLhelsinki() {
         weatherInfo.style.display = 'none';
     });
 }
-
